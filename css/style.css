@@ -1098,6 +1098,11 @@ transition: all .3s;
     background: #fff;
 }
 
+#quote {
+    padding: 30px 0;
+    background: #eee;
+}
+
 /* Contact
 ---------------------------------*/
 .page_section.contact {
