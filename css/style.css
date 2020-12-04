@@ -200,7 +200,7 @@ figure.effect-oscar:hover img {
 body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     color: #888888;
     margin: 0;
@@ -820,13 +820,13 @@ img {
 --------------------------- */
  
 .aboutUs-container {
-background-repeat: no-repeat;
-background-position: right;
-background-size: auto 100%;
-background-position-y: 70px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-position-y: 70px;
 }
 #about-us, h2, h3, h6, p {
-color: #0A1525;
+    color: #0A1525;
 }
 #about-us .read-more{
 	border: 1px solid #b25baa;
@@ -1224,7 +1224,8 @@ transition: all .3s;
 
 .input-btn {
     font-family: 'Raleway', sans-serif;
-    width: 185px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 46px;
     line-height: 46px;
     border-radius: 3px;
@@ -1857,7 +1858,7 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
+    -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     z-index: 1000;
@@ -1961,143 +1962,144 @@ div.mc-image {
    Media Queries
 --------------------------- */
 @media (min-width: 768px) and (max-width: 1200px) {
-
-.aboutUs-container {
-background-repeat: no-repeat;
-background-position: right;
-background-size: auto 59%;
-background-position-y: 150px;
-}
+    .aboutUs-container {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 59%;
+    background-position-y: 150px;
+    }
 }
 @media (max-width: 768px) {
-.navStyle {
-float: right;
-width: auto; 
-text-align: center;
+    .navStyle {
+    float: right;
+    width: auto; 
+    text-align: center;
+    }
+    .aboutUs-container{
+        background-image:none;
+    }
+    p{
+    font-size:14px;
+    }
+    .top_cont_outer { 
+    height: 335px;
+    }
+    .hero_section {
+    position: relative;
+    padding-top: 10px;
+    }
+    .top_left_cont {
+    padding: 38px 0;
+    }
+    .top_left_cont h2 {
+    font-size: 25px;
+    color: #FFF;
+    line-height: 39px;
+    margin: 0 0 9px 0;
+    }
+    .inner_section {
+    padding: 20px 0 20px;
+    }
+    #aboutUs img{
+    margin-bottom:20px;
+    }
+    #aboutUs h3{
+    font-size:26px;
+    line-height:22px;
+    }
+    .service_block h3 { 
+    font-size: 16px;
+    }
+    service_block p {
+    font-size: 14px; 
+    margin: 0px;
+    margin-bottom: 20px;
+    }
+    #filters ul{
+    padding-left:0px;
+    }
+    .form {
+    margin: 0 18px;
+    }
+    .page_section.team{
+    padding: 40px 0;
+    }
+    #clients {
+    padding: 40px 0;
+    }
+    .client_logos ul li {
+    display: inline;
+    margin: 0 25px;
+    padding: 11px 0;
+    display: inline-block;
+    }
+    .social_links li {
+    float: left; 
+    }
+    .contact_section{
+    margin:0;
+    }
+    h2, .contact_section h2 {
+    font-size: 30px;
+    }
+    .page_section.contact {
+    padding: 60px 0 50px;
+    } 
+    .navbar-inverse .navbar-toggle .icon-bar{
+    background: #FFFFFF;
+    }
+    .navbar-inverse .navbar-toggle {
+    border-color: transparent;
+    }
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background:none;
+    outline: none;
+    }
+    .navStyle ul li {
+    display: block;
+    }
+    .navStyle {
+    float: right;
+    width: 100%;
+    text-align:center;
+    }
+    .navbar {
+    border: 0px solid #fff;
+    min-height: 40px;
+    margin-bottom: 0px;
+    float: right;
+    }
+    .navStyle ul li {
+    display: block;
+    margin: 0px;
+    }
+    .navStyle ul li:last-child {
+    margin: 0px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+    color: #D0D0D0; 
+    font-size: 14px;
+    padding: 10px 11px;
+    } 
 }
-.aboutUs-container{
-	background-image:none;
-}
-p{
-font-size:14px;
-}
-.top_cont_outer { 
-height: 335px;
-}
-.hero_section {
-position: relative;
-padding-top: 10px;
-}
-.top_left_cont {
-padding: 38px 0;
-}
-.top_left_cont h2 {
-font-size: 25px;
-color: #FFF;
-line-height: 39px;
-margin: 0 0 9px 0;
-}
-.inner_section {
-padding: 20px 0 20px;
-}
-#aboutUs img{
-margin-bottom:20px;
-}
-#aboutUs h3{
-font-size:26px;
-line-height:22px;
-}
-.service_block h3 { 
-font-size: 16px;
-}
-service_block p {
-font-size: 14px; 
-margin: 0px;
-margin-bottom: 20px;
-}
-#filters ul{
-padding-left:0px;
-}
-.form {
-margin: 0 18px;
-}
-.page_section.team{
-padding: 40px 0;
-}
-#clients {
-padding: 40px 0;
-}
-.client_logos ul li {
-display: inline;
-margin: 0 25px;
-padding: 11px 0;
-display: inline-block;
-}
-.social_links li {
-float: left; 
-}
-.contact_section{
-margin:0;
-}
-h2, .contact_section h2 {
-font-size: 30px;
-}
-.page_section.contact {
-padding: 60px 0 50px;
-} 
-.navbar-inverse .navbar-toggle .icon-bar{
-background: #FFFFFF;
-}
-.navbar-inverse .navbar-toggle {
-border-color: transparent;
-}
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-background:none;
-outline: none;
-}
-.navStyle ul li {
-display: block;
-}
-.navStyle {
-float: right;
-width: 100%;
-text-align:center;
-}
-.navbar {
-border: 0px solid #fff;
-min-height: 40px;
-margin-bottom: 0px;
-float: right;
-}
-.navStyle ul li {
-display: block;
-margin: 0px;
-}
-.navStyle ul li:last-child {
-margin: 0px;
-}
-.navbar-inverse .navbar-nav > li > a {
-color: #D0D0D0; 
-font-size: 14px;
-padding: 10px 11px;
-} 
 @media (max-width: 480px){ 
-.navStyle {
-float: left;
-width: 100%; 
-text-align: left;
-margin-top: 20px;
-}
-.navbar {
-border: 0px solid #fff;
-min-height: 40px;
-margin-bottom: 0px;
-float: initial;
-width: 100%;
-}
-.team_area {
-width: 99%;
-}
-.read_more2{
-display:none;
+    .navStyle {
+    float: left;
+    width: 100%; 
+    text-align: left;
+    margin-top: 20px;
+    }
+    .navbar {
+    border: 0px solid #fff;
+    min-height: 40px;
+    margin-bottom: 0px;
+    float: initial;
+    width: 100%;
+    }
+    .team_area {
+    width: 99%;
+    }
+    .read_more2{
+    display:none;
+    }
 }
