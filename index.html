@@ -315,30 +315,38 @@
               </div>
               <div class="detail">
                 <h4>Endereço</h4>
-                <p>Rua Mostardeiro 5 – sala 907</p>
-                <p>Bairro Moinhos de Vento em Porto Alegre/RS</p>
+                <p>
+                  Rua Mostardeiro 5 – sala 907</br>
+                  Bairro Moinhos de Vento em Porto Alegre/RS
+                </p>
               </div>
-            </div>
-            <ul class="social_links">
-              <li class="instagram animated bounceIn wow delay-02s"><a href="https://www.instagram.com/mmarla.psico/" target="_blank"><i
-                    class="fa fa-instagram"></i></a></li>
-              <li class="facebook animated bounceIn wow delay-03s"><a href="https://www.facebook.com/mmarla.psico" target="_blank"><i
-                    class="fa fa-facebook"></i></a></li>
-            </ul>
+              <div class="detail">
+                <h4>Redes Sociais</h4>
+                <ul class="social_links">
+                  <li class="instagram animated bounceIn wow delay-02s"><a href="https://www.instagram.com/mmarla.psico/" target="_blank"><i
+                        class="fa fa-instagram"></i></a></li>
+                  <li class="facebook animated bounceIn wow delay-03s"><a href="https://www.facebook.com/mmarla.psico" target="_blank"><i
+                        class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+              
+          </div>
+            
           </div>
           <div class="col-lg-8 wow fadeInLeft delay-06s">
             <div class="form">
-              <form action="https://formspree.io/f/xvovbjgd" method="POST">
+              <form id="my-form" action="https://formspree.io/f/xvovbjgd" method="POST">
                 <input class="input-text" type="text" name="name" value="Seu Nome *"
                   onFocus="if(this.value==this.defaultValue)this.value='';"
                   onBlur="if(this.value=='')this.value=this.defaultValue;">
-                <input class="input-text" type="text" name="_replyto" value="Seu E-mail *"
+                <input class="input-text" type="text" name="email" value="Seu E-mail *"
                   onFocus="if(this.value==this.defaultValue)this.value='';"
                   onBlur="if(this.value=='')this.value=this.defaultValue;">
-                <textarea class="input-text text-area" cols="0" rows="0" name="text"
+                <textarea class="input-text text-area" cols="0" rows="0" name="message"
                   onFocus="if(this.value==this.defaultValue)this.value='';"
                   onBlur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>
-                <input class="input-btn" type="submit" value="Enviar Mensagem">
+                <input class="input-btn" type="submit" id="my-form-button" value="Enviar Mensagem"/>
+                <span id="my-form-status"></span>
               </form>
             </div>
           </div>
@@ -346,7 +354,7 @@
       </section>
     </div>
     <div class="container">
-      <div class="footer_bottom"><span>Copyright © reserved. </span> </div>
+      <div class="footer_bottom"><span>Copyright © reserved. Todos os direitos reservados. </span> </div>
     </div>
   </footer>
 
@@ -359,6 +367,7 @@
   <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
   <script type="text/javascript" src="js/wow.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
 
 </body>
 

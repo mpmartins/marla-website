@@ -5,8 +5,8 @@ Licence under Creative Commons Attribution 3.0
 -------------------------------------------------------*/
 
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,400);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,600);
 
 /* Reset
 ---------------------------------*/
@@ -200,7 +200,7 @@ figure.effect-oscar:hover img {
 body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: normal;
     color: #888888;
     margin: 0;
@@ -1171,6 +1171,10 @@ transition: all .3s;
     border-radius: 80px;
 }
 
+.instagram a:hover {
+    color: #dc2c6e;
+}
+
 .twitter a:hover {
     color: #55acee;
 }
@@ -1190,6 +1194,11 @@ transition: all .3s;
 
 .form {
     margin: 0 66px 0 30px;
+}
+
+#my-form-status {
+    margin-left: 10px;
+    color: #aaa;
 }
 
 .input-text {
