@@ -1171,6 +1171,10 @@ transition: all .3s;
     border-radius: 80px;
 }
 
+.whatsapp a:hover {
+    color: #00E676;
+}
+
 .instagram a:hover {
     color: #dc2c6e;
 }
