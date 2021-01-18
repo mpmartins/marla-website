@@ -4,4 +4,4 @@ Disallow: /fonts/
 Disallow: /img/
 Disallow: /js/
 Allow: /
-Sitemap: https://marlamartins/sitemap.xml
+Sitemap: https://marlamartins.com/sitemap.xml
