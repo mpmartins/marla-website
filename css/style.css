@@ -366,6 +366,7 @@ p {
 #head {
   background: #f4f4f4 url(../img/bg3.png) top center;
   background-size: cover;
+  background-position: 50% 0px;
   color: #7C7C7C;
   padding: 120px 0;
 }
@@ -544,7 +545,7 @@ div#main-nav {
     position: relative;
 }
 
-.visit_block h3 {
+.visit_block h1 {
     text-align: center; 
 }
 
@@ -603,7 +604,7 @@ div#main-nav {
     text-align: center;
 }
 
-.visit_block h3 {
+.visit_block h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 25px;
@@ -720,7 +721,7 @@ div#main-nav {
     position: relative;
 }
 
-.service_block h3 {
+.service_block h1 {
     text-align: center; 
 }
 
@@ -778,7 +779,7 @@ div#main-nav {
     text-align: center;
 }
 
-.service_block h3 {
+.service_block h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 25px;
@@ -2020,7 +2021,7 @@ div.mc-image {
     font-size:26px;
     line-height:22px;
     }
-    .service_block h3 { 
+    .service_block h1 { 
     font-size: 16px;
     }
     service_block p {

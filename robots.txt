@@ -1,0 +1,7 @@
+User-agent: * 
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Allow: /
+Sitemap: https://marlamartins/sitemap.xml
